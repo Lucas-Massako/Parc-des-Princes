@@ -1,0 +1,105 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.section-page {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Carrousel */
+.carousel-inner img {
+    width: 40%;
+    height: auto;
+}
+
+/* Pied de page */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Liens dans le pied de page */
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Liens dans la barre de navigation */
+.navbar .navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Carte Google Maps */
+.embed-responsive {
+    margin-top: 20px;
+}
+
+/* Image du supporter */
+.picture {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styles spécifiques à la barre de navigation mobile */
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Boutons du carrousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #007bff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
